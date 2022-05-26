@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Feature from 'components/Feature'
 import Card from 'components/Card'
 import Question from 'components/Question'
+import Service from 'components/Service'
 
 export default function Home() {
     if (typeof window !== 'undefined') {
@@ -95,8 +96,46 @@ export default function Home() {
                     </p>
                 </Feature>
             </section>
+            <Service title='Pinturas' image='/assets/images/pintura.jpg'>
+                <p className='mb-4'>
+                    Sabemos que pintar una casa habitada, es engorroso y las
+                    dificultades que tiene hacer este tipo de trabajo, a veces
+                    es incómodo y es por ello que disponemos de un servicio
+                    técnico, que te hará una visita previa para detallarte y
+                    asesorarte cómo se realizarán los trabajos.
+                </p>
+                <p className='mb-8'>
+                    Te haremos una planificación del trabajo en cuanto al orden
+                    y a las fechas de comienzo, finalización y entrega de las
+                    estancias a pintar. Pídenos presupuesto sin compromiso y
+                    deje su casa en manos de profesionales con la garantía que
+                    da nuestra empresa
+                </p>
+                <h3 className='text-2xl font-black mb-4'>
+                    NUESTRA FORMA DE TRABAJO
+                </h3>
+                <p className='mb-4'>
+                    Antes de comenzar cualquier trabajo de pintura, es
+                    imprescindible tapar todos los elementos de nuestra
+                    vivienda, invirtiendo un tiempo proporcional a la
+                    satisfacción del cliente al término del trabajo realizado.
+                </p>
+                <p className='mb-4'>
+                    Te garantizamos un precio equilibrado en cuanto a
+                    «calidad-precio», ajustandonos a tus necesidades económicas,
+                    aplicamos productos de pintura de 1ª calidad con
+                    certificados de garantía y nos comprometemos con nuestros
+                    clientes con las fechas de entrega y garantizando nuestros
+                    productos si hubiera problemas con la pintura aplicada
+                    durante un año.
+                </p>
+                <p>
+                    Aplicamos pinturas de primeras marcas para garantizar
+                    trabajos de pintura de buena calidad y buenos acabados.
+                </p>
+            </Service>
             <section className='container text-center'>
-                <h2 className='text-center text-5xl font-black mt-20 text-blue'>
+                <h2 className='text-center text-5xl font-black mt-32 text-blue'>
                     Qué te aportamos
                 </h2>
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 pt-20 pb-32 gap-x-7 max-w-7xl mx-auto gap-y-14'>
