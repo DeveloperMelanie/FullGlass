@@ -22,7 +22,7 @@ export default function Question({ title, children, isOpen }) {
             <div className='flex gap-8 items-center'>
                 <div
                     className={`text-7xl self-start${
-                        open ? ' text-blue' : ' text-gray-300'
+                        open ? ' text-blue2' : ' text-gray-300'
                     }`}
                 >
                     {open ? '−' : '+'}
@@ -30,7 +30,7 @@ export default function Question({ title, children, isOpen }) {
                 <div className={open ? 'pt-4' : 'py-4'}>
                     <h3
                         className={`text-xl font-medium${
-                            open ? ' text-blue mb-5' : ' text-gray-300'
+                            open ? ' text-blue2 mb-5' : ' text-gray-300'
                         }`}
                     >
                         {title}

@@ -56,7 +56,7 @@ export default function Home() {
             <section>
                 <Feature
                     title='Sobre nosotros'
-                    image='https://am-andamios.com/wp-content/uploads/elementor/thumbs/construction-silhouette-1-scaled-pjaqyk853ienvm1qpqrca1jovtz2ngmhprqlc35gkg.jpg'
+                    image='/assets/images/about.jpg'
                 >
                     <p className='mb-4'>
                         AM andamios desde sus orígenes ha participado en la
@@ -78,8 +78,8 @@ export default function Home() {
                 </Feature>
                 <Feature
                     reverse={true}
-                    title='Sobre nosotros'
-                    image='https://am-andamios.com/wp-content/uploads/elementor/thumbs/construction-silhouette-scaled-pjaqy3b1ohri2mqbgjg215te6wagswrbnfzup3ujog.jpg'
+                    title='Servicios'
+                    image='/assets/images/services.jpg'
                 >
                     <p className='mb-4'>
                         Proporcionamos montadores de andamios cualificados, a
