@@ -55,10 +55,7 @@ export default function Home() {
                 </p>
             </section>
             <section>
-                <Feature
-                    title='Sobre nosotros'
-                    image='/assets/images/about.jpg'
-                >
+                <Feature title='Sobre nosotros' image='/assets/images/p.jpg'>
                     <p className='mb-4'>
                         AM andamios desde sus orígenes ha participado en la
                         mayoría de proyectos de andamiaje realizados en España y
@@ -80,7 +77,7 @@ export default function Home() {
                 <Feature
                     reverse={true}
                     title='Servicios'
-                    image='/assets/images/services.jpg'
+                    image='/assets/images/a.jpg'
                 >
                     <p className='mb-4'>
                         Proporcionamos montadores de andamios cualificados, a
