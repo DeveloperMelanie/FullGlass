@@ -55,7 +55,7 @@ export default function Home() {
                 </p>
             </section>
             <section>
-                <Feature title='Sobre nosotros' image='/assets/images/p.jpg'>
+                <Feature title='Sobre nosotros' image='/assets/images/p.png'>
                     <p className='mb-4'>
                         AM andamios desde sus orígenes ha participado en la
                         mayoría de proyectos de andamiaje realizados en España y
@@ -77,7 +77,7 @@ export default function Home() {
                 <Feature
                     reverse={true}
                     title='Servicios'
-                    image='/assets/images/a.jpg'
+                    image='/assets/images/a.png'
                 >
                     <p className='mb-4'>
                         Proporcionamos montadores de andamios cualificados, a
@@ -93,7 +93,7 @@ export default function Home() {
                     </p>
                 </Feature>
             </section>
-            <Service title='Pinturas' image='/assets/images/pintura.jpg'>
+            <Service title='Pinturas' image='/assets/images/pintura.png'>
                 <p className='mb-4'>
                     Sabemos que pintar una casa habitada, es engorroso y las
                     dificultades que tiene hacer este tipo de trabajo, a veces
