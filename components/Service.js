@@ -9,6 +9,7 @@ export default function Service({ title, children, image }) {
                 <img
                     src={image}
                     alt={`FullGlass ${title}`}
+                    loading='lazy'
                     className='lg:max-w-[500px] xl:max-w-[600px] 2xl:max-w-[750px] rounded-3xl'
                 />
             </div>

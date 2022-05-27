@@ -10,6 +10,7 @@ export default function Footer() {
                     <img
                         src='/assets/images/logo.png'
                         alt='FullGlass'
+                        loading='lazy'
                         className='w-[170px]'
                     />
                     <div className='flex gap-4 pt-7'>
@@ -17,6 +18,7 @@ export default function Footer() {
                             <img
                                 src='/assets/images/fb.svg'
                                 alt='FullGlass Facebook'
+                                loading='lazy'
                                 className='w-full max-w-[45px]'
                             />
                         </a>
@@ -24,6 +26,7 @@ export default function Footer() {
                             <img
                                 src='/assets/images/twitter.svg'
                                 alt='FullGlass Twitter'
+                                loading='lazy'
                                 className='w-full max-w-[45px]'
                             />
                         </a>
@@ -31,6 +34,7 @@ export default function Footer() {
                             <img
                                 src='/assets/images/yt.svg'
                                 alt='FullGlass Youtube'
+                                loading='lazy'
                                 className='w-full max-w-[45px]'
                             />
                         </a>

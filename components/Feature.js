@@ -13,6 +13,7 @@ export default function Feature({ title, children, image, reverse }) {
                 <img
                     src={image}
                     alt={title}
+                    loading='lazy'
                     className='w-full h-full object-cover'
                 />
             </div>
