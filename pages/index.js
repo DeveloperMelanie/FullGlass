@@ -57,16 +57,25 @@ export default function Home() {
             <section>
                 <Feature title='Sobre nosotros' image='/assets/images/p.png'>
                     <p className='mb-4'>
-                        AM andamios desde sus orígenes ha participado en la
-                        mayoría de proyectos de andamiaje realizados en España y
-                        también ha colaborado en multitud de proyectos
-                        internacionales ofreciendo sus montadores.
+                        <strong>FullGlass</strong> desde sus orígenes ha
+                        participado en la mayoría de <strong>proyectos</strong>{' '}
+                        de <strong>andamiaje</strong> realizados en España y
+                        también ha colaborado en{' '}
+                        <strong>
+                            multitud de proyectos internacionales ofreciendo sus
+                            montadores
+                        </strong>
+                        .
                     </p>
                     <p className='mb-4'>
                         Contando con un equipo técnico, con experiencia en
                         dirección de personal de más de 100 trabajadores a su
-                        cargo. Ofrecemos montadores de andamios con amplia y
-                        contrastada experiencia.
+                        cargo.{' '}
+                        <strong>
+                            Ofrecemos montadores de andamios con amplia y
+                            contrastada experiencia
+                        </strong>
+                        .
                     </p>
                     <Link href='/contacto'>
                         <a className='block w-fit py-4 px-10 bg-blue border-2 border-blue hover:bg-white hover:text-blue transition-all duration-300 rounded-full font-black text-white'>
@@ -80,12 +89,16 @@ export default function Home() {
                     image='/assets/images/a.png'
                 >
                     <p className='mb-4'>
-                        Proporcionamos montadores de andamios cualificados, a
-                        empresas de andamios de toda Europa.
+                        <strong>
+                            Proporcionamos montadores de andamios cualificados,
+                            a empresas de andamios de toda Europa.
+                        </strong>
                     </p>
                     <p className='mb-4'>
-                        Actualmente, trabajamos con empresas alemanas e inglesas
-                        ofreciendo un servicio a medida.
+                        <strong>Actualmente, trabajamos</strong> con{' '}
+                        <strong>empresas alemanas</strong> e{' '}
+                        <strong>inglesas ofreciendo</strong> un{' '}
+                        <strong>servicio</strong> a <strong>medida</strong>.
                     </p>
                     <p className='mb-4'>
                         Para dar servicio a las carencias de personal
@@ -95,11 +108,13 @@ export default function Home() {
             </section>
             <Service title='Pinturas' image='/assets/images/pintura.png'>
                 <p className='mb-4'>
-                    Sabemos que pintar una casa habitada, es engorroso y las
-                    dificultades que tiene hacer este tipo de trabajo, a veces
-                    es incómodo y es por ello que disponemos de un servicio
-                    técnico, que te hará una visita previa para detallarte y
-                    asesorarte cómo se realizarán los trabajos.
+                    Sabemos que <strong>pintar una casa habitada</strong>, es
+                    engorroso y las dificultades que tiene hacer este tipo de
+                    trabajo, <strong>a veces es incómodo</strong> y es por ello
+                    que <strong>disponemos de un servicio técnico</strong>, que
+                    te hará una visita previa{' '}
+                    <strong>para detallarte y asesorarte</strong> cómo se
+                    realizarán los trabajos.
                 </p>
                 <p className='mb-8'>
                     Te haremos una planificación del trabajo en cuanto al orden
@@ -118,17 +133,18 @@ export default function Home() {
                     satisfacción del cliente al término del trabajo realizado.
                 </p>
                 <p className='mb-4'>
-                    Te garantizamos un precio equilibrado en cuanto a
-                    «calidad-precio», ajustandonos a tus necesidades económicas,
-                    aplicamos productos de pintura de 1ª calidad con
-                    certificados de garantía y nos comprometemos con nuestros
-                    clientes con las fechas de entrega y garantizando nuestros
-                    productos si hubiera problemas con la pintura aplicada
-                    durante un año.
+                    Te garantizamos un precio equilibrado en cuanto a «
+                    <strong>calidad-precio</strong>», ajustandonos a tus
+                    necesidades económicas, aplicamos productos de pintura de 1ª
+                    calidad con certificados de garantía y nos comprometemos con
+                    nuestros clientes con las fechas de entrega y garantizando
+                    nuestros productos si hubiera problemas con la pintura
+                    aplicada durante un año.
                 </p>
                 <p>
                     Aplicamos pinturas de primeras marcas para garantizar
-                    trabajos de pintura de buena calidad y buenos acabados.
+                    trabajos de <strong>pintura de buena calidad</strong> y{' '}
+                    <strong>buenos acabados</strong>.
                 </p>
             </Service>
             <section className='container text-center'>
@@ -144,20 +160,18 @@ export default function Home() {
                             aseguran tú rentabilidad y producción.
                         </p>
                     </Card>
-                    <Card image='/assets/images/back.png' title='Experiencia'>
+                    <Card image='/assets/images/tools.png' title='Herramientas'>
                         <p>
-                            Nuestro equipo está formado por los mejores
-                            montadores de andamios. Técnicos con experiencia en
-                            dirección de los más complejos proyectos. Que
-                            aseguran tú rentabilidad y producción.
+                            El Personal técnico de FullGlass ofrece soluciones
+                            online, para garantizar la eficiencia de nuestras
+                            verificaciones y su bajo coste.
                         </p>
                     </Card>
-                    <Card image='/assets/images/back.png' title='Experiencia'>
+                    <Card image='/assets/images/service.png' title='Servicio'>
                         <p>
-                            Nuestro equipo está formado por los mejores
-                            montadores de andamios. Técnicos con experiencia en
-                            dirección de los más complejos proyectos. Que
-                            aseguran tú rentabilidad y producción.
+                            Asesoramiento comercial stock y alquiler material de
+                            andamios. Montadores de andamios, y Supervisión y
+                            jefes de producción.
                         </p>
                     </Card>
                 </div>

@@ -5,6 +5,10 @@ export default function Footer() {
 
     return (
         <footer className='bg-dark-blue text-white pt-20 pb-7'>
+            <div className='pb-10 text-center'>
+                <h1 className='text-5xl font-black'>FullGlass</h1>
+                <span className='block pt-2 text-lg'>Barcelona - España</span>
+            </div>
             <div className='container flex items-center flex-col md:flex-row gap-16'>
                 <div>
                     <img

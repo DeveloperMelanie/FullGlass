@@ -23,6 +23,11 @@
     }
 }
 
+b,
+strong {
+    font-family: 'Now-Black', sans-serif;
+}
+
 .text-in {
     display: block;
     animation: text-in 0.8s ease;

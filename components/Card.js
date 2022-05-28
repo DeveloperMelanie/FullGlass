@@ -6,7 +6,7 @@ export default function Card({ image, title, children }) {
                     src={image}
                     alt={title}
                     loading='lazy'
-                    className='max-w-[50px]'
+                    className='w-[50px] h-[50px] object-cover'
                 />
             </div>
             <h3 className='text-3xl font-black pb-4'>{title}</h3>
