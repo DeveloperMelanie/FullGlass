@@ -30,12 +30,12 @@ export default function Question({ title, children, isOpen }) {
                 <div className={open ? 'pt-4' : 'py-4'}>
                     <h3
                         className={`text-xl font-medium${
-                            open ? ' text-blue2 mb-5' : ' text-gray-300'
+                            open ? ' text-blue2' : ' text-gray-300'
                         }`}
                     >
                         {title}
                     </h3>
-                    <div ref={panel} className='text-lg max-w-lg pb-7'>
+                    <div ref={panel} className='text-lg max-w-lg pb-7 mt-5'>
                         {children}
                     </div>
                 </div>
