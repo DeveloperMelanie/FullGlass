@@ -106,7 +106,11 @@ export default function Home() {
                     </p>
                 </Feature>
             </section>
-            <Service title='Pinturas' image='/assets/images/pintura.png'>
+            <Service
+                title='Pinturas'
+                image='/assets/images/pintura.png'
+                className='pt-20'
+            >
                 <p className='mb-4'>
                     Sabemos que <strong>pintar una casa habitada</strong>, es
                     engorroso y las dificultades que tiene hacer este tipo de
@@ -121,7 +125,7 @@ export default function Home() {
                     y a las fechas de comienzo, finalización y entrega de las
                     estancias a pintar. Pídenos presupuesto sin compromiso y
                     deje su casa en manos de profesionales con la garantía que
-                    da nuestra empresa
+                    da nuestra empresa.
                 </p>
                 <h3 className='text-2xl font-black mb-4'>
                     NUESTRA FORMA DE TRABAJO
@@ -147,8 +151,46 @@ export default function Home() {
                     <strong>buenos acabados</strong>.
                 </p>
             </Service>
-            <section className='container text-center'>
-                <h2 className='text-center text-5xl font-black mt-32 text-blue'>
+            <Service
+                reverse={true}
+                title='Albañilería'
+                image='/assets/images/albañileria.png'
+                className='pt-36'
+            >
+                <p className='mb-4'>
+                    Contamos con un <strong>servicio de albañilería</strong>{' '}
+                    puesto a tu disposición para ayudarte en lo que necesites.
+                </p>
+                <p className='mb-8'>
+                    Trabajamos en estrecha colaboración con nuestros clientes
+                    para asegurar siempre un servicio impecable.
+                </p>
+                <h3 className='text-2xl font-black mb-4'>
+                    CÓMO PODEMOS AYUDARTE
+                </h3>
+                <p className='mb-4'>
+                    Nos encargaremos de tus <strong>pequeñas reformas</strong>,
+                    baños, etc. Garantizando siempre el cumplimiento absoluto de
+                    tus expectativas.
+                </p>
+                <p className='mb-4'>
+                    Te aseguramos una excelente relación «coste-beneficio»,
+                    ofreciéndote el <strong>mejor presupuesto</strong> para la
+                    labor a realizar. Nuestra mano de obra está altamente
+                    cualificada, con gran experiencia en el sector, por lo que
+                    puedes esperar lo mejor de nuestros servicios, con la
+                    garantía de nuestra empresa.
+                </p>
+                <p>
+                    Tenemos un total compromiso con nuestros clientes,{' '}
+                    <strong>
+                        estaremos encantados de brindarte nuestra ayuda
+                    </strong>
+                    .
+                </p>
+            </Service>
+            <section className='container text-center pt-44'>
+                <h2 className='text-center text-5xl font-black text-blue'>
                     Qué te aportamos
                 </h2>
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 pt-20 pb-32 gap-x-7 max-w-7xl mx-auto gap-y-14'>

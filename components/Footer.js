@@ -7,7 +7,19 @@ export default function Footer() {
         <footer className='bg-dark-blue text-white pt-20 pb-7'>
             <div className='pb-10 text-center'>
                 <h1 className='text-5xl font-black'>FullGlass</h1>
-                <span className='block pt-2 text-lg'>Barcelona - España</span>
+                <div className='max-w-[720px] mx-auto pt-6 px-4'>
+                    <div className='overflow-hidden pb-[56.25%] relative h-0'>
+                        <iframe
+                            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1496.5574876249086!2d2.1654386719990883!3d41.39330938835463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2ed1cd7c73d%3A0xc92f51ba2eb02077!2sCarrer%20de%20Pau%20Claris%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2suy!4v1654287324564!5m2!1ses-419!2suy'
+                            width={700}
+                            height={400}
+                            className='border-0 left-0 top-0 w-full h-full absolute'
+                            allowFullScreen
+                            loading='lazy'
+                            referrerPolicy='no-referrer-when-downgrade'
+                        />
+                    </div>
+                </div>
             </div>
             <div className='container flex items-center flex-col md:flex-row gap-16'>
                 <div>
