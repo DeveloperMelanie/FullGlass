@@ -57,7 +57,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='flex-1'>
-                    <div className='bg-black flex flex-wrap gap-y-8 justify-around px-5 py-10 text-gray-400'>
+                    <div className='bg-black flex flex-wrap gap-y-8 gap-x-4 justify-around px-5 py-10 text-gray-400'>
                         <div className='flex flex-col font-bold'>
                             <h4 className='text-2xl font-black mb-5 text-white'>
                                 Información
@@ -140,7 +140,7 @@ export default function Footer() {
                             </form>
                         </div>
                     </div>
-                    <div className='bg-gray-500 text-gray-400 text-center lg:text-left lg:pl-44 font-bold py-3'>
+                    <div className='bg-gray-500 text-gray-400 text-center px-4 lg:text-left lg:pl-44 font-bold py-3'>
                         Copyright {actualYear} ©. Todos los derechos reservados.
                     </div>
                 </div>
