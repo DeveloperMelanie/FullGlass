@@ -7,6 +7,9 @@ export default function Footer() {
         <footer className='bg-dark-blue text-white pt-20 pb-7'>
             <div className='pb-10 text-center'>
                 <h1 className='text-5xl font-black'>FullGlass</h1>
+                <span className='block mt-3 text-xl'>
+                    Pau Claris Barcelona - España
+                </span>
                 <div className='max-w-[720px] mx-auto pt-6 px-4'>
                     <div className='overflow-hidden pb-[56.25%] relative h-0'>
                         <iframe
@@ -97,11 +100,11 @@ export default function Footer() {
                                     Sobre nosotros
                                 </a>
                             </Link>
-                            <Link href='/trabaja-con-nosotros'>
+                            {/* <Link href='/trabaja-con-nosotros'>
                                 <a className='mb-1 hover:text-yellow transition-colors duration-300'>
                                     Trabaja con nosotros
                                 </a>
-                            </Link>
+                            </Link> */}
                         </div>
                         <div className='flex flex-col font-bold'>
                             <h4 className='text-2xl font-black mb-5 text-white'>
